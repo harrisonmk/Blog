@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Cadastro</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        
+        <header>
+           
+            <form method=post id="nivel"  action="Formulario.php">
+                
+                
+            <fieldset id="user"> <legend> Identificação do Usuário</legend>
+                <p> <label for="tperfil"> Nivel Acesso:</label> 
+                    <input type="text" name="tperfil" id="cnivel" size="20" maxlength="50" placeholder="Nivel Acesso" /></p>
+
+            </fieldset>    
+                
+                
+            <fieldset id="usuario"> <legend> Usuario</legend>
+                <p> <label for="cNome"> Nome:</label> 
+                    <input type="text" name="tnome" id="cNome" size="20" maxlength="50" placeholder="Nome Completo" /></p>
+                <p><label for="cEmail"> E-mail:</label>
+                    <input type="email" name="temail" id="cEmail" size="20" maxlength="30" placeholder="Digite seu E-mail" /></p> 
+                <p><label for="csenha">Senha:</label> 
+                    <input type="password" name="tsenha" id="csenha"  size="8" maxlength="8" placeholder="8 dígitos"/> </p>
+
+              
+                       
+            </fieldset> 
+      <input type="submit" value="Confirmar"/>
+                
+            </form>
+           
+        </header>
+        
+        
+    </body>
+</html>
